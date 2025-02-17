@@ -59,7 +59,7 @@ namespace WinForm.MDI
                 Empname = ds.Tables[0].Rows[0]["EmpName"].ToString();
                 Position = ds.Tables[0].Rows[0]["Position"].ToString();
                 UserName = ds.Tables[0].Rows[0]["UserName"].ToString();
-                MessageBox.Show(EmployeeID + Environment.NewLine + Empname + Environment.NewLine + Position, "ยินดีต้องรับ");
+                MessageBox.Show(EmployeeID + Environment.NewLine + Empname + Environment.NewLine + Position, "ยินดีต้อนรับ");
             }
             else
             {
